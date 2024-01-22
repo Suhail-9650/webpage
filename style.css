@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* background: green; */
+    height: 100vh;
+    background-image: linear-gradient(#2E3192 , #1BFFFF);
+   
+}
+.features{
+    height: 100px;
+    width: 10wh;
+    /* background: red; */
+    display: flex;
+   justify-content: center;
+   
+}
+.para{
+    height: 100px;
+    width: 20%;
+    /* background: pink; */
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+   
+}
+.para h2{
+    color:black;
+    font-size: 20px;
+}
+.section{
+    height: 100%;
+    width: 100wh;
+    /* background: purple; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.under-section{
+    height: 80%;
+    width: 70%;
+    /* background: aqua; */
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.ist-div{
+    width: 100%;
+    height: 40%;
+    /* background: #000; */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    height: 150px;
+    width: 200px;
+    background: rgb(230, 240, 250,);
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    gap: 20px;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+   
+
+}
+.icons:hover{
+    background-color: rgb(189, 63, 9);
+}
+.icons i{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    color: rgb(189, 63, 9);
+    background-color: white;
+    border-radius: 50px;
+   font-weight: bolder;
+   font-size: 30px;
+   text-align: center;
+   padding-top: 20px;
+}
+
+.sec-div{
+    width: 100%;
+    height: 40%;
+    /* background:pink; */
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
